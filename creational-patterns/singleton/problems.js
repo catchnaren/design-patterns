@@ -64,6 +64,7 @@ class DummyDatabase {
   }
 }
 
+// tests
 describe('singleton database', function () {
   it('is a singleton', function () {
     const db1 = new MyDatabase();
